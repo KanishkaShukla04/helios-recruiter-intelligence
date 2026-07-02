@@ -1,17 +1,30 @@
-node_modules/
-__pycache__/
-.env
-# Large dataset
-backend/app/data/candidates.jsonl
-
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
 .venv/
 venv/
-
-# Environment
 .env
 
+# =========================
 # VS Code
+# =========================
 .vscode/
+
+# =========================
+# Backend dataset
+# =========================
+backend/app/data/candidates.jsonl
+
+# =========================
+# Frontend (Next.js)
+# =========================
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+
+# Optional
+*.log
+.DS_Store
