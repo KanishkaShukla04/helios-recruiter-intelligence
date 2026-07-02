@@ -1,0 +1,17 @@
+node_modules/
+__pycache__/
+.env
+# Large dataset
+backend/app/data/candidates.jsonl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+
+# VS Code
+.vscode/
